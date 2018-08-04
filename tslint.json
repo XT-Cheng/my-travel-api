@@ -1,0 +1,16 @@
+{
+  "rulesDirectory": [
+    "node_modules/rxjs-tslint"
+  ],
+  "rules": {
+    "no-duplicate-variable": true,
+    "no-console": false,
+    "no-unused-variable": [
+      true
+    ],
+    "rxjs-collapse-imports": true,
+    "rxjs-pipeable-operators-only": true,
+    "rxjs-no-static-observable-methods": true,
+    "rxjs-proper-imports": true
+  }
+}
