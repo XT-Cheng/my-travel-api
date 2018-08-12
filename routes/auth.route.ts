@@ -43,7 +43,7 @@ export class AuthRoute {
                     subject: user.name
                 });
             res.status(200).json({
-                auth_app_token: jwtBearerToken
+                token: jwtBearerToken
             });
         }
     }
